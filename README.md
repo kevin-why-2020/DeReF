@@ -41,7 +41,7 @@ DATA_ROOT_DIR/
         └── ...
 ```
 
-DATA_ROOT_DIR is the base directory of cancer type (e.g. the directory to TCGA_BLCA), which should be passed to the model with the argument `--data_root_dir` as shown in [run.sh](run.sh).
+DATA_ROOT_DIR is the base directory of cancer type (e.g. the directory to TCGA_BLCA), which should be passed to the model with the argument `--data_root_dir` as shown in [run1.sh](run1.sh).
 
 #### Genomics
 In this work, we directly use the preprocessed genomic data provided by [PORPOISE](https://github.com/mahmoodlab/PORPOISE), stored in folder [csv](./csv).
