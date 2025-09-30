@@ -1,8 +1,8 @@
-CUDA_VISIBLE_DEVICES=5 python main.py --which_splits 5foldcv \
+CUDA_VISIBLE_DEVICES=0 python main.py --which_splits 5foldcv \
                                       --dataset tcga_blca \
                                       --data_root_dir /data3/share/TCGA/BLCA_feature \
                                       --modal coattn \
-                                      --model cmta \
+                                      --model DeReF \
                                       --num_epoch 30 \
                                       --batch_size 1 \
                                       --loss nll_surv_mse \
