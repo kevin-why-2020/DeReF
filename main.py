@@ -18,7 +18,7 @@ def main(args):
     set_seed(args.seed)
 
     # create results directory
-    results_dir = "./DeReF/{dataset}/[{model}]-[{fusion}]-[{alpha}]-[{time}]".format(
+    results_dir = "./{model}/{dataset}/[{model}]-[{fusion}]-[{alpha}]-[{time}]".format(
         dataset=args.dataset,
         model=args.model,
         fusion=args.fusion,
@@ -67,9 +67,9 @@ def main(args):
         )
 
         # build model, criterion, optimizer, schedular
-        if args.model == "cmta":
-            from models.cmta.network import CMTA
-            from models.cmta.engine import Engine
+        if args.model == "DeReF":
+            from models.deref.network import DeReF
+            from models.deref.engine import Engine
 
             print(train_dataset.omic_sizes)
             model_dict = {
@@ -78,7 +78,7 @@ def main(args):
                 "fusion": args.fusion,
                 "model_size": args.model_size,
             }
-            model = CMTA(**model_dict)
+            model = DeReF(**model_dict)
             criterion = define_loss(args)
             optimizer = define_optimizer(args, model)
             scheduler = define_scheduler(args, optimizer)
