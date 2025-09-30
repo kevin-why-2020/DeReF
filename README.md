@@ -1,8 +1,5 @@
 # DeReF
 The source code of paper "Decouple, Reorganize, and Fuse: A Multimodal Framework for Cancer Survival Prediction"
-
-# CMTA
-<details>
 <summary>
   <b>Cross-Modal Translation and Alignment for Survival Analysis</b>, ICCV 2023.
   <a href="https://arxiv.org/pdf/2508.18632?" target="blank">[arxiv]</a> 
