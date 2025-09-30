@@ -1,5 +1,5 @@
 # DeReF
-The source code of paper "Decouple, Reorganize, and Fuse: A Multimodal Framework for Cancer Survival Prediction"
+
 <summary>
   <b>Decouple, Reorganize, and Fuse: A Multimodal Framework for Cancer Survival Prediction</b>, TMI under revision.
   <a href="https://arxiv.org/pdf/2508.18632?" target="blank">[arxiv]</a> 
