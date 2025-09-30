@@ -10,6 +10,6 @@ CUDA_VISIBLE_DEVICES=0 python main.py --which_splits 5foldcv \
                                       --optimizer Adam \
                                       --scheduler None \
                                       --alpha 1.0 \
-                                      --seed 7
+                                  
 
 
