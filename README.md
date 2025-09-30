@@ -44,13 +44,13 @@ DATA_ROOT_DIR/
 DATA_ROOT_DIR is the base directory of cancer type (e.g. the directory to TCGA_BLCA), which should be passed to the model with the argument `--data_root_dir` as shown in [run.sh](run.sh).
 
 #### Genomics
-In this work, we directly use the preprocessed genomic data provided by [CMTA](https://github.com/mahmoodlab/MCAT](https://github.com/FT-ZHOU-ZZZ/CMTA)), stored in folder [csv](./csv).
+In this work, we directly use the preprocessed genomic data provided by [PORPOISE](https://github.com/mahmoodlab/PORPOISE), stored in folder [csv](./csv).
 
 ## Training-Validation Splits
 Splits for each cancer type are found in the `splits/5foldcv ` folder, which are randomly partitioned each dataset using 5-fold cross-validation. Each one contains splits_{k}.csv for k = 1 to 5. 
 
 ## Running Experiments
-To train CMTA, you can specify the argument in the bash `run1.sh` and run the command:
+To train DeReF, you can specify the argument in the bash `run1.sh` and run the command:
 ```bash
 bash run1.sh
 ```
@@ -70,7 +70,7 @@ CUDA_VISIBLE_DEVICES=<DEVICE_ID> python main.py \
                                       --scheduler None \
                                       --alpha 1.0
 ```
-Commands for all experiments of DeReF can be found in the [run.sh](run.sh) file.
+Commands for all experiments of DeReF can be found in the [run1.sh](run1.sh) file.
 
 
 ## Acknowledgements
