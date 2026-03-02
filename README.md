@@ -4,7 +4,7 @@
 
 <summary>
   <b>Decouple, Reorganize, and Fuse: A Multimodal Framework for Cancer Survival Prediction</b>.
-  <a href="https://ieeexplore.ieee.org/document/11417210" target="blank">[arxiv]</a> 
+  <a href="https://ieeexplore.ieee.org/document/11417210" target="blank">[TMI Early Access]</a> 
   <br><em>Huayi Wang, Haochao Ying, Yuyang Xu, Qibo Qiu, Cheng Zhang, Danny Z. Chen, Ying Sun, and Jian Wu </em></br>
 </summary>
 
